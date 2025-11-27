@@ -21,58 +21,58 @@
         } 
 
         .hero h1 {
-            font-size: 50px;
-            margin-bottom: 10px;
-            font-weight: bold;
-            letter-spacing: 1px;
+            font-size:50px;
+            margin-bottom:10px;
+            font-weight:bold;
+            letter-spacing:1px;
         }
 
         .hero p {
-            font-size: 20px;
-            max-width: 700px;
-            margin: 0 auto;
-            opacity: 0.9;
+            font-size:20px;
+            max-width:700px;
+            margin:0auto;
+            opacity:0.9;
         }
 
         .cta-btn {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 15px 35px;
-            background: #e60000;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 18px;
-            font-weight: bold;
+            display:inline-block;
+            margin-top:30px;
+            padding:15px35px;
+            background:#e60000;
+            color:white;
+            text-decoration:none;
+            border-radius:6px;
+            font-size:18px;
+            font-weight:bold;
         }
 
         /* FEATURE SECTION */
         .section {
-            padding: 60px 20px;
-            max-width: 1100px;
-            margin: 0 auto;
-            text-align: center;
+            padding:60px20px;
+            max-width:1100px;
+            margin:0auto;
+            text-align:center;
         }
 
         .section h2 {
-            font-size: 36px;
-            margin-bottom: 40px;
+            font-size:36px;
+            margin-bottom:40px;
         }
 
         .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 25px;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:25px;
         }
 
         .feature-card {
-            background: #1a1a1a;
-            border-top: 4px solid #e60000;
-            padding: 30px;
-            width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            background:#1a1a1a;
+            border-top:4pxsolid #e60000;
+            padding:30px;
+            width:300px;
+            border-radius:10px;
+            box-shadow:0010pxrgba(0,0,0,0.5);
         }
 
         .feature-card h3 {
