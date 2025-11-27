@@ -18,7 +18,7 @@
             background: linear-gradient(to right, #000, #c40000);
             padding: 90px 20px;
             text-align: center;
-        }
+        } 
 
         .hero h1 {
             font-size: 50px;
