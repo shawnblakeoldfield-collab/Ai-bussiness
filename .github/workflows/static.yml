@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automotive AI</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(to right, #000, #c40000);
+            padding: 90px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 35px;
+            background: #e60000;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* FEATURE SECTION */
+        .section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .feature-card {
+            background: #1a1a1a;
+            border-top: 4px solid #e60000;
+            padding: 30px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .feature-card h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #e60000;
+        }
+
+        .feature-card p {
+            font-size: 15px;
+            opacity: 0.85;
+        }
+
+        /* SIGNUP SECTION */
+        .signup {
+            background: #000;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        .signup input {
+            padding: 15px;
+            width: 260px;
+            border-radius: 6px;
+            border: 1px solid #333;
+            background: #222;
+            color: white;
+        }
+
+        .signup button {
+            padding: 15px 25px;
+            background: #e60000;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            margin-left: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: #0d0d0d;
+            color: #aaa;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <div class="hero">
+        <h1>Automotive AI</h1>
+        <p>Professional AI-powered automotive solutions built for performance, efficiency, and innovation.</p>
+        <a href="#signup" class="cta-btn">Get Started</a>
+    </div>
+
+    <!-- FEATURES -->
+    <div class="section">
+        <h2>Our Solutions</h2>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>AI Diagnostics</h3>
+                <p>Instant and precise vehicle diagnostics powered by machine intelligence.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Predictive Maintenance</h3>
+                <p>Reduce downtime with real-time monitoring and maintenance forecasting.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Smart Automotive Systems</h3>
+                <p>Advanced AI models designed to enhance safety, performance, and automation.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIGNUP SECTION -->
+    <div class="signup" id="signup">
+        <h2>Start Transforming Your Automotive Workflow</h2>
+        <p>Enter your email to get access to our AI tools.</p>
+        <form>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Join Now</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        © 2025 Automotive AI — Professional Intelligent Vehicle Solutions
+    </div>
+
+</body>
+</html>
