@@ -7,17 +7,17 @@
 
     <style>
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #111;
-            color: white;
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:#111;
+            color:white;
         }
 
         /* HERO SECTION */
         .hero {
-            background: linear-gradient(to right, #000, #c40000);
-            padding: 90px 20px;
-            text-align: center;
+            background:linear-gradient(to right, #000, #c40000);
+            padding:90px20px;
+            text-align:center;
         } 
 
         .hero h1 {
