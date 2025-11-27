@@ -1,0 +1,1 @@
+Hey — quick question. Are you currently using any AI tools to automate your lead follow-up or ad creation? I built something for dealerships that gets 3–10 extra appointments weekly with no extra ad spend. Want me to show you?
